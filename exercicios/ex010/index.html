@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessa o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode assecar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external"> canal gratuito no YouTube</a></p>
+    <p>Quando o link for externo você precisa adicionar <strong>target="_blank"</strong> (para abrir o link em outra aba) e <strong>rel="external"</strong>(para dizer que é um link externo)</p>
+    <h2>Usando links internos</h2>
+    <p>Está é a primeira página do meu site. Se você quiser pode acessar a minha <a href="pag002.html" target="_self" rel="next">segunda página</a></p>
+    <p>Usar<strong> rel="next"</strong> para indicar que é a próxima página</p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a></p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/while_Python.pdf" download="while_Python.pdf"  type="application/pdf">Baixar lista Python em PDF</a></li>
+        <li><a href="livro/while_Python.zip" dowload="while_Python.zip" type="application/zip" >Lista compactada em ZIP</a></li>
+    </ul>
+    <p>Para baixar o link utilize <strong>dowload="nome do arquivo"</strong> e <strong>type="application/tipo do aquivo"</strong></p>
+</body>
+</html>

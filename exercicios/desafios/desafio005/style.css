@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #BFB8B4;
+}
+h1{
+    text-align: center;
+    color: #425170;
+}
+div>p{
+    display: none;
+}
+div:hover{
+    p{
+        display:block;
+    }
+}
+
+}
